@@ -1,0 +1,27 @@
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: $spacing-medium;
+  
+    &__image {
+      width: 40px;
+      size: 50px;
+      border-radius: 8px 8px 0 0;
+    }
+  
+    &__content {
+      padding: $spacing-small;
+  
+      h3 {
+        font-family: $font-secondary;
+        color: $primary-color;
+        margin-bottom: $spacing-small;
+      }
+  
+      p {
+        font-family: $font-primary;
+        color: $text-color;
+      }
+    }
+  }
